@@ -3,19 +3,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A First App</title>
+    <!--Hoja de estilos-->
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div id="app">
       <div>
         <label for="goal">Goal</label>
-        <input type="text" id="goal" />
-        <button>Add Goal</button>
+        <input type="text" id="goal" v-model="enteredValue" />
+        <button v-on:click="addGoal">Add Goal</button>
       </div>
       <ul>
-        <li>Test</li>
+        <li v-for="goal in goals">{{ goal }}</li>
       </ul>
     </div>
+
+    <!--Vue-->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <!--Mi archivo JS-->
     <script src="./main.js"></script>
   </body>
 </html>

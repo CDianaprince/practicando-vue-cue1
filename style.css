@@ -12,7 +12,7 @@ body {
 
 #app {
   margin: 3rem auto;
-  background-color: rgb(198, 158, 105);
+  background-color:rgb(226, 252, 252);
   max-width: 40rem;
   padding: 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
@@ -41,12 +41,12 @@ li {
 }
 
 button{
-  background-color: rgb(202, 106, 37);
+  background-color:rgb(215, 111, 76);
   color: rgb(18, 18, 21);
   border:none;
 }
 
 #goal{
-  background-color: rgb(235, 220, 212);
+  background-color: rgb(237, 232, 230);
   border: none;
 }
