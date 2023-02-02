@@ -45,3 +45,8 @@ button{
   color: rgb(18, 18, 21);
   border:none;
 }
+
+#goal{
+  background-color: rgb(235, 220, 212);
+  border: none;
+}
